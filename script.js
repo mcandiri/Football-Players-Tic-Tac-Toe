@@ -61,6 +61,12 @@ async function showCommonPlayers() {
     const textarea = document.getElementById("commonPlayers");
     textarea.value = '';
 
+    // Check if the selected teams are the same
+    if (team1 === team2) {
+        textarea.value = 'Please select two different teams.';
+        return; // If the teams are the same, exit the function here
+    }
+
     try {
         const response = await fetch('dataset.csv');
         const text = await response.text();
