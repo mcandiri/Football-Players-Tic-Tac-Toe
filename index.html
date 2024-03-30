@@ -1,0 +1,30 @@
+<!DOCTYPE html> 
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Football Players Tic-Tac-Toe</title>
+  
+  
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+
+    <h1>Players and Teams</h1>
+    <div class="dropdown-container">
+        <input type="text" id="searchInput1" placeholder="Search Team 1" oninput="filterOptions('dropdown1', this.value)">
+        <select id="dropdown1" aria-label="Team1"></select>
+    </div>
+    
+    <div class="dropdown-container">
+        <input type="text" id="searchInput2" placeholder="Search Team 2" oninput="filterOptions('dropdown2', this.value)">
+        <select id="dropdown2" aria-label="Team2"></select>
+    </div>
+    <button id="showPlayers" onclick="showCommonPlayers()">Show Common Players</button>
+    <textarea id="commonPlayers" rows="4" cols="50" placeholder="Common players will be list here..."></textarea>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
