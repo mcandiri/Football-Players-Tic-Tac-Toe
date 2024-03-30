@@ -67,6 +67,7 @@ async function showCommonPlayers() {
         return; // If the teams are the same, exit the function here
     }
 
+    
     try {
         const response = await fetch('dataset.csv');
         const text = await response.text();
