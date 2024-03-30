@@ -2,7 +2,13 @@
 
 ## About The Project
 
-### Football Player Tic-Tac-Toe offers a creative twist on the classic Tic-Tac-Toe game by integrating football player transfers and team affiliations into its gameplay. This innovative web application allows users to select teams and utilize players who have played for both as pieces in a game of Tic-Tac-Toe. Designed to delight football fans and Tic-Tac-Toe enthusiasts alike, it combines the strategic depth of player selection with the beloved simplicity of the traditional game.
+Football Player Tic-Tac-Toe offers a creative twist on the classic Tic-Tac-Toe game by integrating football player transfers and team affiliations into its gameplay. This innovative web application allows users to select teams and utilize players who have played for both as pieces in a game of Tic-Tac-Toe. Designed to delight football fans and Tic-Tac-Toe enthusiasts alike, it combines the strategic depth of player selection with the beloved simplicity of the traditional game.
+
+## Live Preview
+
+To view the project in action, visit the live site here: [Football Players Tic-Tac-Toe Live Demo](https://mcandiri.github.io/Football-Players-Tic-Tac-Toe/).
+
+Simply click the link to explore the application without needing to download or install anything.
 
 
 ## Features
